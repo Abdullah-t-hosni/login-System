@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Login Page</title>
+    </head>
+
+    <body>
+        <section id="login">
+            <div class="container">
+                <div class="login-content text-center w-75 m-auto my-5 p-5 boxShadow">
+                    <div class="header pb-4">
+                        <h1>Login System</h1>
+                    </div>
+                    <!-- <div class="content">
+                        <input type="email" id="emailLoginInput"  class="form-control text-white mb-3 bg-transparent" placeholder="Enter your email" >
+                        <input type="password" id="passwordLoginInput" class="form-control text-white mb-4 bg-transparent" placeholder="Enter your password" >
+                        <p id="alertMassage" class="d-none"></p>
+                    </div> -->
+                        <div class="container">
+                            <input id="emailLoginInput" required="" type="email" name="email" class="input mb-5">
+                            <label class="label">Enter Your Email</label>
+                        </div>
+                        <div class="container">
+                            <input id="passwordLoginInput" required="" type="password" name="password" class="input mb-5">
+                            <label class="label">Password</label>
+                            <p id="alertMassage" class="d-none"></p>
+                          </div>
+                    <!-- <div class="submit-btn ">
+                        <a id="loginBtn" class="btn w-100">Login</a>
+                    </div> -->
+
+                    <button id="loginBtn">
+                        <span class="circle1"></span>
+                        <span class="circle2"></span>
+                        <span class="circle3"></span>
+                        <span class="circle4"></span>
+                        <span class="circle5"></span>
+                        <span class="text">Login</span>
+                      </button>
+                    <div class="account-question mt-3">
+                        <p class="text-white">Don’t have an account? <a href="signup.html" class="text-decoration-none text-white">Signup</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="./js/logIn.js"></script>
+    </body>
+</html>
